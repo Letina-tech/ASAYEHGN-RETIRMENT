@@ -160,6 +160,15 @@ li.active {
     width: 100%;
     height: auto;
 }
+.Asse-gallery h4{
+    color: #fff;
+    background-color: #cd0909;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .Videos{
     align-content: center;
