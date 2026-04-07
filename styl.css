@@ -169,7 +169,6 @@ li.active {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .Videos{
     align-content: center;
     justify-self: center;
@@ -181,23 +180,13 @@ li.active {
     max-width: 700px;
     border: #0799f4 2px solid;
 }
-/* .Video-b {
-    align-content: center;
-    justify-self: center;
-    color: #fff;
-    background-color: #2b2828;
-    padding: 30px;
-    border-radius: 15px;
-    height: auto;
-    max-width: 700px;
-    border: #0799f4 2px solid;
-} */
+
 .Videos h1{
     background-color: aqua;
     padding: 20px;
     border-radius: 20px;
     width: 600px;
-    align-items: center;
+    text-align: center;
     margin-bottom: 20px;
 }
 .Videos .btn{
@@ -215,7 +204,7 @@ li.active {
 
 
 /* Meadia Query */
-@media screen and (max-width:800px) {
+@media screen and (max-width:801px) {
     header li {
         display: flex;
         padding: 5px 15px;
@@ -243,9 +232,15 @@ li.active {
     .msg h1 {
         width: 450px;
     }
+     video .my-video{
+        width:600px
+  }
+  .Asse-gallery h4{
+    font-size: 1rem;
+  }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:601px) {
     header li {
         display: flex;
         padding: 5px 15px;
@@ -273,8 +268,15 @@ li.active {
     .msg h1 {
         width: 450px;
     }
+     video .my-video{
+        width:500px
+ }
+  .Asse-gallery h4{
+    font-size: .7rem;
+  }
 }
-@media screen and (max-width:300px) {
+
+@media screen and (max-width:401px) {
     header li {
         display: flex;
         padding: 5px 10px;
@@ -290,7 +292,7 @@ li.active {
         font-weight: 300;
     }
     .Videos h1{
-        width: 300px;
+        width: 250px;
     }
     .Asse-gallery{
         display: block;
@@ -301,4 +303,10 @@ li.active {
     .msg h1 {
         width: 350px;
     }
+    video .my-video{
+        width:300px
+  }
+  .Asse-gallery h4{
+    font-size: .6rem;
+  }
 }
